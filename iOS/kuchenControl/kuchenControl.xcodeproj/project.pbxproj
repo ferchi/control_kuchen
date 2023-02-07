@@ -11,6 +11,12 @@
 		3A0E093D2991F29800E1E72D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E093C2991F29800E1E72D /* ContentView.swift */; };
 		3A0E093F2991F29900E1E72D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0E093E2991F29900E1E72D /* Assets.xcassets */; };
 		3A0E09422991F29900E1E72D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0E09412991F29900E1E72D /* Preview Assets.xcassets */; };
+		3A0E094B29920B6500E1E72D /* Departamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E094A29920B6500E1E72D /* Departamento.swift */; };
+		3A0E094E2992133A00E1E72D /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E094D2992133A00E1E72D /* RowView.swift */; };
+		3A0E095129921D8400E1E72D /* CheckBoxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E095029921D8400E1E72D /* CheckBoxStyle.swift */; };
+		3A0E095329921E5B00E1E72D /* Parameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E095229921E5B00E1E72D /* Parameter.swift */; };
+		3A0E09592992358300E1E72D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E09582992358300E1E72D /* HeaderView.swift */; };
+		3A0E095B29923C6800E1E72D /* FabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E095A29923C6800E1E72D /* FabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		3A0E093C2991F29800E1E72D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A0E093E2991F29900E1E72D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A0E09412991F29900E1E72D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A0E094A29920B6500E1E72D /* Departamento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Departamento.swift; sourceTree = "<group>"; };
+		3A0E094D2992133A00E1E72D /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		3A0E095029921D8400E1E72D /* CheckBoxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxStyle.swift; sourceTree = "<group>"; };
+		3A0E095229921E5B00E1E72D /* Parameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameter.swift; sourceTree = "<group>"; };
+		3A0E09582992358300E1E72D /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		3A0E095A29923C6800E1E72D /* FabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +63,10 @@
 		3A0E09392991F29800E1E72D /* kuchenControl */ = {
 			isa = PBXGroup;
 			children = (
+				3A0E094F29921D6400E1E72D /* Style */,
+				3A0E094C29920FDE00E1E72D /* View */,
+				3A0E094929920B3300E1E72D /* Models */,
 				3A0E093A2991F29800E1E72D /* kuchenControlApp.swift */,
-				3A0E093C2991F29800E1E72D /* ContentView.swift */,
 				3A0E093E2991F29900E1E72D /* Assets.xcassets */,
 				3A0E09402991F29900E1E72D /* Preview Content */,
 			);
@@ -65,6 +79,34 @@
 				3A0E09412991F29900E1E72D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3A0E094929920B3300E1E72D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A0E094A29920B6500E1E72D /* Departamento.swift */,
+				3A0E095229921E5B00E1E72D /* Parameter.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3A0E094C29920FDE00E1E72D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A0E093C2991F29800E1E72D /* ContentView.swift */,
+				3A0E094D2992133A00E1E72D /* RowView.swift */,
+				3A0E09582992358300E1E72D /* HeaderView.swift */,
+				3A0E095A29923C6800E1E72D /* FabView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A0E094F29921D6400E1E72D /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				3A0E095029921D8400E1E72D /* CheckBoxStyle.swift */,
+			);
+			path = Style;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +179,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A0E095129921D8400E1E72D /* CheckBoxStyle.swift in Sources */,
+				3A0E094B29920B6500E1E72D /* Departamento.swift in Sources */,
 				3A0E093D2991F29800E1E72D /* ContentView.swift in Sources */,
+				3A0E095329921E5B00E1E72D /* Parameter.swift in Sources */,
+				3A0E095B29923C6800E1E72D /* FabView.swift in Sources */,
 				3A0E093B2991F29800E1E72D /* kuchenControlApp.swift in Sources */,
+				3A0E094E2992133A00E1E72D /* RowView.swift in Sources */,
+				3A0E09592992358300E1E72D /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +317,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"kuchenControl/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Kuchen Control";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -281,9 +330,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jfsb.kuchenControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -297,6 +349,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"kuchenControl/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Kuchen Control";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -309,9 +362,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jfsb.kuchenControl;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
