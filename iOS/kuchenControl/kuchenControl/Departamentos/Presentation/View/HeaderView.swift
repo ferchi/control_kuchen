@@ -27,7 +27,6 @@ struct HeaderView: View {
 }
 
 struct HeaderView_Previews: PreviewProvider {
-    static var dep = Departamento.sampleData[0]
     static var previews: some View {
         HeaderView()
     }
