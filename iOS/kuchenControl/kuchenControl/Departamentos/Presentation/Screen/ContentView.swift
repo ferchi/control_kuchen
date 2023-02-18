@@ -14,16 +14,12 @@ struct ContentView: View {
     var body: some View {
         NavigationView{
             ZStack(alignment: .topTrailing){
-                List {
-                    Text("Lista de control")
-                        .font(.system(size: 32))
                     
-                    Section(header: HStack {
-                        HeaderView()
-                    }) {
-                        RowView(depViewModel: depViewModel).frame(minHeight: minRowHeight * 15)
-                    }
-                }.listStyle(.plain)
+                VStack{
+                    Text("Lista de control").font(.system(size: 32))
+                    HeaderView()
+                    ListContentView(depViewModel: depViewModel).frame(minHeight: minRowHeight * 15)
+                }
                 NavigationLink(destination: NewDepScreen(depViewModel: depViewModel)) {
                     FabView()
                 }

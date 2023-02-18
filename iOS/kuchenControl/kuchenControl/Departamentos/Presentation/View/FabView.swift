@@ -25,9 +25,7 @@ struct FabView: View {
                 .background(.purple)
                 .foregroundColor(.white)
                 .cornerRadius(.infinity)
-                
             }
-        }.frame(width: 60,height: 60)
-            .padding()
+        }.frame(width: 55,height: 55).padding(8)
     }
 }

@@ -11,18 +11,48 @@ import SwiftUI
 
 struct HeaderView: View {
     var body: some View {
-        ScrollView(.horizontal){
-            HStack{
-                Text("# Dep").frame(width: 50)
-                Text("Proto").frame(width: 50)
-                Text("Instalador").frame(width: 150)
-                Text("Fecha").frame(width: 100)
-                Text("Equip").frame(width: 50)
-                Text("Plom").frame(width: 50)
-                Text("Estatus").frame(width: 150)
-                Text("Notas").lineLimit(1).frame(width: 150, height: 50)
-            }.frame(width: 800).padding([.trailing], 50)
-        }
+        HStack{
+            VStack{
+                RoundedRectangle(cornerRadius: 80, style: .continuous)
+                    .fill(getBackgroundColor(estatus:"EN PROCESO")).shadow(
+                        color: Color.gray.opacity(0.7),
+                        radius: 8,
+                        x: 0,
+                        y: 0
+                    ).frame(width: 50, height: 10)
+                Text("EN PROCESO").font(.footnote)
+            }
+            VStack{
+                RoundedRectangle(cornerRadius: 80, style: .continuous)
+                    .fill(getBackgroundColor(estatus:"TERMINADO")).shadow(
+                        color: Color.gray.opacity(0.7),
+                        radius: 8,
+                        x: 0,
+                        y: 0
+                    ).frame(width: 50, height: 10)
+                Text("TERMINADO").font(.footnote)
+            }
+            VStack{
+                RoundedRectangle(cornerRadius: 80, style: .continuous)
+                    .fill(getBackgroundColor(estatus:"ESTIMADO")).shadow(
+                        color: Color.gray.opacity(0.7),
+                        radius: 8,
+                        x: 0,
+                        y: 0
+                    ).frame(width: 50, height: 10)
+                Text("ESTIMADO").font(.footnote)
+            }
+            VStack{
+                RoundedRectangle(cornerRadius: 80, style: .continuous)
+                    .fill(getBackgroundColor(estatus:"ENTREGADO")).shadow(
+                        color: Color.gray.opacity(0.7),
+                        radius: 8,
+                        x: 0,
+                        y: 0
+                    ).frame(width: 50, height: 10)
+                Text("ENTREGADO").font(.footnote)
+            }
+        }.frame(width: .infinity, height: 100)
     }
 }
 

@@ -12,7 +12,7 @@
 		3A0E093F2991F29900E1E72D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0E093E2991F29900E1E72D /* Assets.xcassets */; };
 		3A0E09422991F29900E1E72D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0E09412991F29900E1E72D /* Preview Assets.xcassets */; };
 		3A0E094B29920B6500E1E72D /* Departamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E094A29920B6500E1E72D /* Departamento.swift */; };
-		3A0E094E2992133A00E1E72D /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E094D2992133A00E1E72D /* RowView.swift */; };
+		3A0E094E2992133A00E1E72D /* ListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E094D2992133A00E1E72D /* ListContentView.swift */; };
 		3A0E095129921D8400E1E72D /* CheckBoxStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E095029921D8400E1E72D /* CheckBoxStyle.swift */; };
 		3A0E095329921E5B00E1E72D /* Parameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E095229921E5B00E1E72D /* Parameter.swift */; };
 		3A0E09592992358300E1E72D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0E09582992358300E1E72D /* HeaderView.swift */; };
@@ -27,6 +27,10 @@
 		3A340152299F5F68004E6BFD /* DepDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A340151299F5F68004E6BFD /* DepDataSource.swift */; };
 		3A340154299F5F85004E6BFD /* DepRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A340153299F5F85004E6BFD /* DepRepository.swift */; };
 		3A340156299F66A3004E6BFD /* NewDepScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A340155299F66A3004E6BFD /* NewDepScreen.swift */; };
+		3A46C9D029A091730014913C /* DepDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A46C9CF29A091730014913C /* DepDetailsScreen.swift */; };
+		3A71FA7D29A0931D000CF688 /* DepCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71FA7C29A0931D000CF688 /* DepCardView.swift */; };
+		3AFE033329A0ACE10075E432 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE033229A0ACE10075E432 /* RowView.swift */; };
+		3AFE033529A0B4D00075E432 /* ImageOnCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE033429A0B4D00075E432 /* ImageOnCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +40,7 @@
 		3A0E093E2991F29900E1E72D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A0E09412991F29900E1E72D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3A0E094A29920B6500E1E72D /* Departamento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Departamento.swift; sourceTree = "<group>"; };
-		3A0E094D2992133A00E1E72D /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		3A0E094D2992133A00E1E72D /* ListContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListContentView.swift; sourceTree = "<group>"; };
 		3A0E095029921D8400E1E72D /* CheckBoxStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxStyle.swift; sourceTree = "<group>"; };
 		3A0E095229921E5B00E1E72D /* Parameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameter.swift; sourceTree = "<group>"; };
 		3A0E09582992358300E1E72D /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
@@ -46,6 +50,10 @@
 		3A340151299F5F68004E6BFD /* DepDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepDataSource.swift; sourceTree = "<group>"; };
 		3A340153299F5F85004E6BFD /* DepRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepRepository.swift; sourceTree = "<group>"; };
 		3A340155299F66A3004E6BFD /* NewDepScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDepScreen.swift; sourceTree = "<group>"; };
+		3A46C9CF29A091730014913C /* DepDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepDetailsScreen.swift; sourceTree = "<group>"; };
+		3A71FA7C29A0931D000CF688 /* DepCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepCardView.swift; sourceTree = "<group>"; };
+		3AFE033229A0ACE10075E432 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		3AFE033429A0B4D00075E432 /* ImageOnCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOnCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,9 +121,12 @@
 		3A0E094C29920FDE00E1E72D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				3A0E094D2992133A00E1E72D /* RowView.swift */,
+				3A0E094D2992133A00E1E72D /* ListContentView.swift */,
 				3A0E09582992358300E1E72D /* HeaderView.swift */,
 				3A0E095A29923C6800E1E72D /* FabView.swift */,
+				3A71FA7C29A0931D000CF688 /* DepCardView.swift */,
+				3AFE033229A0ACE10075E432 /* RowView.swift */,
+				3AFE033429A0B4D00075E432 /* ImageOnCircleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -159,6 +170,7 @@
 			children = (
 				3A0E093C2991F29800E1E72D /* ContentView.swift */,
 				3A340155299F66A3004E6BFD /* NewDepScreen.swift */,
+				3A46C9CF29A091730014913C /* DepDetailsScreen.swift */,
 			);
 			path = Screen;
 			sourceTree = "<group>";
@@ -264,17 +276,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A340154299F5F85004E6BFD /* DepRepository.swift in Sources */,
+				3AFE033329A0ACE10075E432 /* RowView.swift in Sources */,
 				3A0E095129921D8400E1E72D /* CheckBoxStyle.swift in Sources */,
 				3A0E094B29920B6500E1E72D /* Departamento.swift in Sources */,
+				3A46C9D029A091730014913C /* DepDetailsScreen.swift in Sources */,
 				3A0E093D2991F29800E1E72D /* ContentView.swift in Sources */,
 				3A340156299F66A3004E6BFD /* NewDepScreen.swift in Sources */,
 				3A34014D299F5E3B004E6BFD /* DepViewModel.swift in Sources */,
 				3A0E095329921E5B00E1E72D /* Parameter.swift in Sources */,
 				3A0E095B29923C6800E1E72D /* FabView.swift in Sources */,
 				3A0E093B2991F29800E1E72D /* kuchenControlApp.swift in Sources */,
-				3A0E094E2992133A00E1E72D /* RowView.swift in Sources */,
+				3A71FA7D29A0931D000CF688 /* DepCardView.swift in Sources */,
+				3A0E094E2992133A00E1E72D /* ListContentView.swift in Sources */,
 				3A340152299F5F68004E6BFD /* DepDataSource.swift in Sources */,
 				3A0E09592992358300E1E72D /* HeaderView.swift in Sources */,
+				3AFE033529A0B4D00075E432 /* ImageOnCircleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
