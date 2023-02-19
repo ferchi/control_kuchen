@@ -34,8 +34,10 @@ struct RowView: View {
                         VStack{
                             Text(format).frame(width: 100).font(.footnote).foregroundColor(.gray)
                             HStack{
-                                Toggle(isOn: .constant(dep.equipos)) {Text("Eq").font(.footnote)}.toggleStyle(CheckBoxStyle()).frame(width: 100)
-                                Toggle(isOn: .constant(dep.plomeria)) {Text("Pl").font(.footnote)}.toggleStyle(CheckBoxStyle()).frame(width: 100)
+                                if(dep.equipos){Image(systemName: "stove.fill").frame(width: 100).foregroundColor(.blue)}
+                                else{Image(systemName: "stove").frame(width: 100)}
+                                if(dep.plomeria){Image(systemName: "spigot.fill").frame(width: 100).foregroundColor(.blue)}
+                                else{Image(systemName: "spigot").frame(width: 100)}
                             }
                         }
                     }
@@ -44,7 +46,7 @@ struct RowView: View {
                 //                    Text(dep.estatus).frame(width: 150).lineLimit(1).foregroundColor(Color.white)
                 //                    Text(dep.notas).lineLimit(1).frame(width: 150, height: 50).lineLimit(1).foregroundColor(Color.white)
             }
-        }}.frame(width: .infinity, height: 100)
+        }}.frame(width: .infinity, height: 60).padding([.vertical], 8)
     }
 }
 

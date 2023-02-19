@@ -29,6 +29,7 @@
 		3A340156299F66A3004E6BFD /* NewDepScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A340155299F66A3004E6BFD /* NewDepScreen.swift */; };
 		3A46C9D029A091730014913C /* DepDetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A46C9CF29A091730014913C /* DepDetailsScreen.swift */; };
 		3A71FA7D29A0931D000CF688 /* DepCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A71FA7C29A0931D000CF688 /* DepCardView.swift */; };
+		3A9EA4A629A1A61B0019599D /* EditDepCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9EA4A529A1A61B0019599D /* EditDepCardView.swift */; };
 		3AFE033329A0ACE10075E432 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE033229A0ACE10075E432 /* RowView.swift */; };
 		3AFE033529A0B4D00075E432 /* ImageOnCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE033429A0B4D00075E432 /* ImageOnCircleView.swift */; };
 /* End PBXBuildFile section */
@@ -52,6 +53,7 @@
 		3A340155299F66A3004E6BFD /* NewDepScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDepScreen.swift; sourceTree = "<group>"; };
 		3A46C9CF29A091730014913C /* DepDetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepDetailsScreen.swift; sourceTree = "<group>"; };
 		3A71FA7C29A0931D000CF688 /* DepCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepCardView.swift; sourceTree = "<group>"; };
+		3A9EA4A529A1A61B0019599D /* EditDepCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDepCardView.swift; sourceTree = "<group>"; };
 		3AFE033229A0ACE10075E432 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
 		3AFE033429A0B4D00075E432 /* ImageOnCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOnCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,6 +129,7 @@
 				3A71FA7C29A0931D000CF688 /* DepCardView.swift */,
 				3AFE033229A0ACE10075E432 /* RowView.swift */,
 				3AFE033429A0B4D00075E432 /* ImageOnCircleView.swift */,
+				3A9EA4A529A1A61B0019599D /* EditDepCardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A9EA4A629A1A61B0019599D /* EditDepCardView.swift in Sources */,
 				3A340154299F5F85004E6BFD /* DepRepository.swift in Sources */,
 				3AFE033329A0ACE10075E432 /* RowView.swift in Sources */,
 				3A0E095129921D8400E1E72D /* CheckBoxStyle.swift in Sources */,

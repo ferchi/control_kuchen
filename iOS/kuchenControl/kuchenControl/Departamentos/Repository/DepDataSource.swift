@@ -39,4 +39,24 @@ final class DepDatasource {
             completionBlock(.failure(error))
         }
     }
+    
+    func update(dep: Departamento) {
+        print("DepDatasource")
+        guard let documentId = dep.id else {
+            return
+        }
+        do {
+            print("DepDatasource 2")
+            _ = try database.collection(collection).document(documentId).setData(from: dep)            
+        } catch {
+            print("Error updating is favorited in database")
+        }
+    }
+    
+    func delete(dep: Departamento) {
+        guard let documentId = dep.id else {
+            return
+        }
+        database.collection(collection).document(documentId).delete()
+    }
 }

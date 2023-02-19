@@ -22,4 +22,12 @@ final class DepRepository {
     func createDep(dep: Departamento,completionBlock: @escaping (Result<Departamento, Error>) -> Void) {
         self.depDatasource.createNew(dep: dep,completionBlock: completionBlock)
     }
+    func update(dep: Departamento) {
+        print("DepRepository")
+
+        self.depDatasource.update(dep: dep)
+    }
+    func delete(dep: Departamento) {
+        self.depDatasource.delete(dep: dep)
+    }
 }
