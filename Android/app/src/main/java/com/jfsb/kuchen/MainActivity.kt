@@ -7,13 +7,17 @@ import androidx.activity.viewModels
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
+import androidx.compose.runtime.InternalComposeApi
 import androidx.compose.ui.Modifier
 import androidx.navigation.compose.rememberNavController
 import com.jfsb.kuchen.core.navigation.NavGraph
 import com.jfsb.kuchen.features.department.presentation.viewmodel.DepartmentViewModel
 import com.jfsb.kuchen.ui.theme.KuchenTheme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
+    @OptIn(InternalComposeApi::class)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {

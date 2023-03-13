@@ -1,6 +1,7 @@
 package com.jfsb.kuchen.core.navigation
 
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.InternalComposeApi
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -8,6 +9,7 @@ import androidx.navigation.compose.rememberNavController
 import com.jfsb.kuchen.features.department.presentation.screen.ListScreen
 import com.jfsb.kuchen.features.department.presentation.viewmodel.DepartmentViewModel
 
+@OptIn(InternalComposeApi::class)
 @Composable
 fun NavGraph(
     navHostController: NavHostController,
@@ -15,8 +17,7 @@ fun NavGraph(
 ) {
     NavHost(
         navController = rememberNavController(),
-        route = Routes.Splash.route,
-        startDestination = Routes.Splash.route
+        startDestination = Routes.List.route
     ) {
         composable(Routes.List.route) {
             ListScreen(
